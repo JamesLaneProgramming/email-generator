@@ -16,7 +16,7 @@ def generate_email(file_Object):
     for each in file_Object.read().split(", "):
         print("Name: " + each)
         splitString = each.split(" ")
-        newEmailString = "{0}.{1}@scientificgames.com".format(splitString[0], splitString[1])
+        newEmailString = "{0}.{1}@company_name.com".format(splitString[0], splitString[1])
         print("Generated Email: " + newEmailString)
 if __name__ == '__main__':
     main()
